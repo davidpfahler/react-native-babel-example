@@ -2,6 +2,13 @@
 
 import React from 'react-native'
 import Tiles from './components/tiles.jsx'
+import db from './lib/db'
+
+db.info().then((res) => {
+  console.log(res)
+}).catch((e) => {
+  console.log(e)
+})
 
 const {AppRegistry, NavigatorIOS} = React
 
