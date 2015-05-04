@@ -24,6 +24,5 @@ module.exports = {
   plugins: [
     new webpack.NoErrorsPlugin(),
     new AnybarWebpackPlugin()
-  ],
-  devTool: 'source-map'
+  ]
 }

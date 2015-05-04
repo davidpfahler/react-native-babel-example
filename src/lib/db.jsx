@@ -2,4 +2,7 @@
 
 import PouchDB from 'pouchdb'
 import asyncadapter from 'pouchdb-async-storage'
-export default new PouchDB('exampledb', {adapter: 'asyncstorage'})
+
+let db = new PouchDB('exampledb', {adapter: 'asyncstorage'})
+global.db = db
+export default db
