@@ -8,8 +8,8 @@
     "test": "standard"
   },
   "dependencies": {
-    "asyncstorage-down": "git://github.com/davidpfahler/asyncstorage-down.git",
-    "pouchdb": "git://github.com/davidpfahler/pouchdb.git#react-native",
+    "pouchdb": "git://github.com/pouchdb/pouchdb.git#for-react-native",
+    "pouchdb-async-storage": "git://github.com/nolanlawson/pouchdb-async-storage.git#valid",
     "react-native": "^0.4.1"
   },
   "devDependencies": {
