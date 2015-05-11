@@ -9,9 +9,10 @@
     "test": "standard"
   },
   "dependencies": {
+    "Base64": "^0.3.0",
     "lodash": "^3.8.0",
     "pouchdb": "git://github.com/pouchdb/pouchdb.git#for-react-native",
-    "pouchdb-async-storage": "git://github.com/nolanlawson/pouchdb-async-storage.git#valid",
+    "pouchdb-async-storage": "git://github.com/nolanlawson/pouchdb-async-storage.git",
     "react-native": "^0.4.1"
   },
   "devDependencies": {
